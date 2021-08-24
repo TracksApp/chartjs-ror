@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'chartjs/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = "chartjs-ror"
+  gem.name          = "tracks-chartjs-ror"
   gem.version       = Chartjs::VERSION
-  gem.authors       = ["Andy Stewart"]
-  gem.email         = ["boss@airbladesoftware.com"]
+  gem.authors       = ["Jyri-Petteri Paloposki", "Andy Stewart"]
+  gem.email         = ["jyri-petteri.paloposki@ardcroas.fi"]
   gem.description   = 'Simplifies using Chart.js in Rails'
   gem.summary       = 'Simplifies using Chart.js in Rails'
-  gem.homepage      = 'https://github.com/airblade/chartjs-ror'
+  gem.homepage      = 'https://github.com/TracksApp/chartjs-ror'
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
